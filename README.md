@@ -17,9 +17,19 @@ The Ticket Booking System is a Python-based application designed to manage event
 - **SQL Server**: Database management system for data storage.
 - **Exceptions Handling**: Custom exception classes for better error handling.
   
-## Project Structure
+## Setup Instructions
 
-TicketBookingSystem/ │ ├── dao/ │ ├── booking_system_repository.py # Data Access Object for managing bookings and events │ ├── entity/ │ ├── event.py # Event entity class │ ├── ticket.py # Ticket entity class │ └── booking.py # Booking entity class │ ├── exception/ │ └── exception.py # Custom exceptions for the application │ ├── util/ │ └── DBUtil.py # Database connection utility │ └── main.py # Main application file with menu-driven interface
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd TicketBookingSystem
+2.Install Required Packages: Make sure you have Python installed. You may need to install additional packages, such as pyodbc, for SQL Server connections:
+  pip install pyodbc
+
+3.Configure Database Connection: Update the DBUtil.py file with your SQL Server connection details if necessary.
+
+4.Run the Application:
+  python main.py
 
 For questions or feedback, please contact:
 
