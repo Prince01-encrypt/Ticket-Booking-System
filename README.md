@@ -19,10 +19,8 @@ The Ticket Booking System is a Python-based application designed to manage event
   
 ## Setup Instructions
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
-   cd TicketBookingSystem
+1.Clone the Repository
+  
 2.Install Required Packages: Make sure you have Python installed. You may need to install additional packages, such as pyodbc, for SQL Server connections:
   pip install pyodbc
 
