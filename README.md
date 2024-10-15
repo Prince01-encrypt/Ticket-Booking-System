@@ -15,18 +15,17 @@ The Ticket Booking System is a Python-based application designed to manage event
 
 - **Python**: Programming language for application development.
 - **SQL Server**: Database management system for data storage.
-- **Exceptions Handling**: Custom exception classes for better error handling.
   
 ## Setup Instructions
 
-1.Clone the Repository
+1. Clone the Repository
   
-2.Install Required Packages: Make sure you have Python installed. You may need to install additional packages, such as pyodbc, for SQL Server connections:
+2. Install Required Packages: Make sure you have Python installed. You may need to install additional packages, such as pyodbc, for SQL Server connections:
   pip install pyodbc
 
-3.Configure Database Connection: Update the DBUtil.py file with your SQL Server connection details if necessary.
+3. Configure Database Connection: Update the DBUtil.py file with your SQL Server connection details if necessary.
 
-4.Run the Application:
+4. Run the Application:
   python main.py
 
 For questions or feedback, please contact:
